@@ -42,6 +42,3 @@ btn.addEventListener('click', (e) => {
 
 
 
-// jigbhj876879
-
-// 148800hh
