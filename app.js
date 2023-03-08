@@ -10,7 +10,7 @@ const getWeather = function (city) {
         .then(response => response.json())
         .then(data => {
             const { main } = data
-            const celcius = Math.floor(main.temp - 273.15)
+            const celcius = Math.floor((main.temp - 273.15)+1)
             console.log(celcius)
             const weather = document.createElement('div')
             weather.classList.add('weather');
